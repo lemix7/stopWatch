@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size:1.6rem ;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:  Helvetica, sans-serif;
+    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+}
+
+.title{
+    font-size: 5rem;
+    font-weight: 200;
+    margin-bottom: 4rem;
+    color: white;
+}
+
+.run{color: #d61522;}
+
+.stopwatch{
+    width: 500px;
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    padding: 6rem ;
+    border-radius: 1rem;
+}
+
+.stopwatch h1{
+    font-size: 7rem;
+    color: white;
+
+}
+
+
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+.btns button{
+    padding: 1rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+}
+
+.btns button:hover{
+    background-color: black;
+}
+
+.btns button:hover svg{
+    fill: white;
+}
+
+
+.btns button svg{
+    fill: var(--secondary-color);
+}
