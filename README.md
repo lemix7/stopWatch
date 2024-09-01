@@ -14,10 +14,7 @@ This project is a simple yet feature-rich stopwatch application built using HTML
 - CSS3
 - JavaScript (ES6+)
 
-## How to Use
-1. **Start the Timer**: Click the "Start" button to begin the stopwatch.
-2. **Stop the Timer**: Click the "Stop" button to pause the stopwatch.
-3. **Reset the Timer**: Click the "Reset" button to set the stopwatch back to 00:00:00.
+[Live Demo](https://stopwatchlemix.netlify.app)
 
 ## Visual Feedback
 - When the timer is running, the background color of the page will change, providing a visual indication that the stopwatch is active.
