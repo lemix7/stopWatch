@@ -32,13 +32,3 @@ This project is a simple yet feature-rich stopwatch application built using HTML
 - `styles.css`: Includes all the styling for the stopwatch and the dynamic background.
 - `script.js`: Houses the JavaScript logic for the stopwatch functionality and background color changes.
 
-## Future Enhancements
-- Add lap time functionality
-- Implement a countdown timer mode
-- Allow customization of background colors
-
-## Contributing
-Contributions, issues, and feature requests are welcome. Feel free to check [issues page](link-to-your-issues-page) if you want to contribute.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE.md](link-to-license-file) file for details.
