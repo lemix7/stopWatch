@@ -59,7 +59,6 @@ replay.addEventListener('click' , () => {
     time.textContent = `00:00:00`
 
     title.textContent = 'Stopwatch'
-    title.classList.toggle('run')
     document.body.style.background = "linear-gradient(90deg, #efd5ff 0%, #515ada 100%)";
 })
 
