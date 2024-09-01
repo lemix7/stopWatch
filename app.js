@@ -45,7 +45,7 @@ play.addEventListener('click',timerStart)
 pause.addEventListener('click',() => {
     clearInterval(timer)
     title.textContent = 'Stopwatch'
-    title.classList.toggle('run')
+    document.body.style.background = "linear-gradient(90deg, #efd5ff 0%, #515ada 100%)";
 })
 
 replay.addEventListener('click' , () => {
@@ -60,5 +60,6 @@ replay.addEventListener('click' , () => {
 
     title.textContent = 'Stopwatch'
     title.classList.toggle('run')
+    document.body.style.background = "linear-gradient(90deg, #efd5ff 0%, #515ada 100%)";
 })
 
